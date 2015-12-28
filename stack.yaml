@@ -16,6 +16,10 @@ flags: {}
 # Extra package databases containing global packages
 extra-package-dbs: []
 
+docker:
+  repo: fpco/stack-build:lts-3.19
+  auto-pull: true
+
 # Control whether we use the GHC we find on the path
 # system-ghc: true
 
